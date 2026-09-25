@@ -150,3 +150,56 @@ a{
   font-size: 12px;
   color: #6b7280;
 }
+.page-heading{
+  margin-bottom: 28px;
+}
+.page-heading h2{
+margin: 0 0 6px;
+font-size: 30px;
+}
+.page-heading p{
+  color:#6b7280;
+  font-size: 14px;
+}
+
+/* statistic */
+
+.stats-grid{
+display: grid;
+grid-template-columns: repeat(4, minmax(0,1fr));
+gap: 20px;
+}
+
+.stat-card{
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.stat-card-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stat-title{
+  font-size: 13px;
+  color: #6b7280;
+}
+.stst-icon{
+  
+  font-size: 20px;
+}
+.stat-value{
+  margin: 14px 0 4px;
+  font-size:30px;
+  color:#111827;
+  line-height: 1;
+}
+.stat-description{
+ margin: 0;
+ font-size: 12px;
+ color: #6b7280;
+}
