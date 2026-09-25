@@ -203,3 +203,138 @@ gap: 20px;
  font-size: 12px;
  color: #6b7280;
 }
+.camera-status{
+  margin: 0 0 20px;
+  font-size: 18px;
+ }
+ .status-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+ }
+ .status-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius:8px;
+  background: #f9fafb;
+
+ }
+
+ .status-item span{
+  font-size: 14px;
+  color: #4b5563;
+ }
+ .status-item strong{
+  font-size: 20px;
+  color: #111827;
+ }
+
+ .camera-progress{
+  margin-top: 24px;
+
+ }
+ .progress-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #6b7280;
+ }
+
+ .progress-track{
+  width: 100%;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+ }
+ .progress-fill{
+  height: 100%;
+  background: #2563eb;
+  border-radius: 999px;
+ }
+.camera-activity {
+  margin-top: 28px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.camera-activity h2 {
+  margin: 0 0 20px;
+  font-size: 18px;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-item {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+  align-items: center;
+
+  padding: 14px 0;
+
+  border-bottom: 1px solid #f3f4f6;
+
+  font-size: 14px;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-item span:nth-child(1) {
+  font-weight: 600;
+  color: #111827;
+}
+
+.activity-item span:nth-child(2) {
+  color: #6b7280;
+}
+
+.activity-item span:nth-child(3) {
+  color: #374151;
+}
+
+.activity-item span:nth-child(4) {
+  color: #9ca3af;
+  text-align: right;
+}
+
+.event-badge {
+  display: inline-block;
+
+  width: fit-content;
+
+  padding: 5px 10px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.event-badge.online {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.event-badge.offline {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.event-badge.motion {
+  background: #fef3c7;
+  color: #92400e;
+}
